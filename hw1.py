@@ -2,6 +2,9 @@ import torch
 import hw1_utils as utils
 import matplotlib.pyplot as plt
 
+# Note: I have saved the plots below under names different from those that appear in this repository because this was part of a homework assignment. The names of the plots
+# in this repository are intended to be descriptive of what they show.
+
 '''
     Important
     ========================================
