@@ -184,10 +184,10 @@ def poly_xor():
     Z = torch.cat((Z_new, Z), 1)
     lin_labels = torch.matmul(Z, linear_normal(A, B))
     
-    xmin = -60
-    xmax = 60
-    ymin = -100
-    ymax = 100
+    xmin = torch.min(A)
+    xmax = torch.max(A)
+    ymin = torch.min(B)
+    ymax = torch.max(B)
     
     K = A
     n_by_d = K.shape
