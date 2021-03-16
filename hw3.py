@@ -6,6 +6,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 #import torch.optim as optim
 
+# Note: The only code that I wrote myself in hw3_utils is line 35.
+# In this file (hw3), function names, function signatures, docstrings, the call to super in line 24 below, and the above lines of code are not written by me, but all other code
+# is.
 
 
 class Block(nn.Module):
